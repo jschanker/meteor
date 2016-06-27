@@ -437,7 +437,7 @@ Blaze.TemplateInstance.prototype.subscriptionsReady = function () {
 /**
  * @summary Specify template helpers available to this template.
  * @locus Client
- * @param {Object} helpers Dictionary of helper functions by name.
+ * @param {Object} dict Dictionary of helper functions by name.
  * @importFromPackage templating
  */
 Template.prototype.helpers = function (dict) {
